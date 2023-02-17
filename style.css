@@ -1,0 +1,227 @@
+body{
+background-color: rgb(236, 242, 248);
+}
+.sign{
+margin: 1%;
+display: flex;
+}
+.home{
+position: fixed;
+width: 100%;
+position: -webkit-sticky; /* Safari */
+position: sticky;
+top: 0;
+background-color: rgb(248, 252, 248);
+z-index: 2;
+}
+.logo{
+    display: flex;
+    margin-left: 2%;
+}
+.logo h1{
+    margin-top: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(0, 111, 149);
+}
+.logo h2{
+    margin: 5% 0% 0% 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(2, 18, 23);
+}
+.sign a{
+    text-decoration: none;
+}
+.signin{
+    display: flex;
+    width: 70%;
+    margin: 0 0 0 5%;
+}
+.signin button{
+    height: 75%;
+    width: 25%;
+    font-size: large;
+    margin: 0.5% 5% 0% 2%;
+    border: none;
+    border-bottom: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.signin button a{
+    text-decoration: none;
+    color: #060606;
+}
+.line{
+    margin-top: -1%;
+    border: 1px solid;
+    color: rgb(238, 121, 3);
+}  
+.search{
+    margin: 0.5% 0 0 10%;
+    width: 150%;
+}
+.search form{
+    display: flex;
+    
+}
+.search input[type=text]{
+    border-radius:10px;
+    border: rgb(10, 8, 8);
+    width: 150%;
+    height: 35px;
+    border: solid black 1px;
+}    
+.search button{
+    color: #060606;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 2%;
+    border-radius: 5px;
+}
+.bar{
+    margin: 1% 0 0 0;
+}
+.bar ul{
+    display: flex;
+    list-style: none;
+}
+.bar nav{
+    margin: 0 0 0 1%;
+}
+.bar li{
+    margin: 0 0 0 2%;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+.bar nav li a{
+    text-decoration: none;
+    color: rgb(0, 4, 7);
+    font-size:large;
+    padding: 10px;
+    border-radius: 2px;
+}
+.bar a:hover{
+    color: rgb(245, 245, 245);
+    background-color: black;
+}
+ 
+.back > img{
+    margin: 0% 0 0 0.7%;
+    z-index: 1;
+    width: 100%;
+}
+.discription{
+    margin: 6% 0% 0 5%;
+}
+.discription h3{
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.discription h4{
+    margin: 1% 0% 1% 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.discription ul li{
+    margin: 0% 0% 0% 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2% 3% 0 4%;
+}
+.picture > div{
+  margin: 10px;
+}
+.option{
+    position: relative;
+    overflow: hidden;
+}
+.option >h3{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(252, 252, 252);
+  background-color: #013725;
+  padding: 2% 5% 2% 5%;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 70%;
+}
+.option >img{
+    transition: 0.25s all ease-in-out;
+    
+}
+.option:hover img {
+    transform: scale(1.1);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 3% 0 2%;
+    padding-right: 7%;
+    width: 100%;
+}
+.footer>div{
+    margin: 2% 2% 1% 4%;
+    width: 33%;
+}
+.footer h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+.feedback input[type=text]{
+    border-radius:10px;
+    border: rgb(10, 8, 8);
+    width: 100%;
+    height: 100px;
+    border: solid black 1px;
+}
+.feedback button{
+    background: rgb(0, 111, 149);
+    color: rgb(250, 253, 249);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5%;
+    padding: 4% ;
+}
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin: 5% 3% 2% 2%;
+    padding-right: 7%;
+}
+.copyright{
+    margin: 2% 2% 1% 4%;
+}
+.social{
+    margin: 2% 2% 1% 20%;
+}
+
+.imgs{
+    display: flex;
+}
+.imgs a{
+    margin: 7%;
+}
+a:hover i{
+  background-color: #e5edea;
+}
+.payment{
+    margin: 0 10% 0 26%;
+}
+.pay{
+  display: flex;
+}
